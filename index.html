@@ -8,10 +8,49 @@
     <title>GitHub Battle</title>
   </head>
   <body>
-    <div class="container">
-      <h1>GitHub Battle</h1>
-      <p>Some Battles are worth fighting ; )</p>
-      <button>Get Started</button>
+    <div id="container" class="container">
+      <section id="gettingStarted">
+        <h1 class="title">GitHub Battle</h1>
+        <p class="subTitle">Some Battles are worth fighting ; )</p>
+        <button id="getStarted">Get Started</button>
+      </section>
+      <section id="playerOne" class="playerOne">
+        <h1 class="title">Player One</h1>
+        <form id="playerOne-form">
+          <div class="form-control">
+            <input
+              type="text"
+              class="playerOne-input"
+              id="playerOne-input"
+              placeholder="Git User"
+              required
+            />
+          </div>
+        </form>
+        <a href="#">
+          <button>Continue</button>
+        </a>
+      </section>
+      <section id="playerTwo" class="playerTwo">
+        <h1 class="title">Player Two</h1>
+        <form id="playerTwo-form">
+          <div class="form-control">
+            <input
+              type="text"
+              class="playerTwo-input"
+              id="playerTwo-input"
+              placeholder="Git User"
+              required
+            />
+          </div>
+        </form>
+        <a href="#">
+          <button>Continue</button>
+        </a>
+      </section>
+      <section id="usersUI"></section>
     </div>
+    <script src="userUI.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
