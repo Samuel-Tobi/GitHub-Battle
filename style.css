@@ -20,6 +20,13 @@ h1 {
   font-size: 3.5rem;
 }
 
+input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
 button {
   width: 150px;
   padding: 5px;
@@ -29,4 +36,11 @@ button {
   color: white;
   background-color: rgb(9, 156, 9);
   margin-top: 20px;
+}
+
+.playerOne {
+  display: none;
+}
+.playerTwo {
+  display: none;
 }
