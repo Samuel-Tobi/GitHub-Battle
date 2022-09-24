@@ -44,3 +44,8 @@ button {
 .playerTwo {
   display: none;
 }
+
+.playerOne-container {
+  text-align: center;
+  margin: auto;
+}
