@@ -16,7 +16,7 @@
       </section>
       <section id="playerOne" class="playerOne">
         <h1 class="title">Player One</h1>
-        <form id="playerOne-form">
+        <form id="playerOneForm">
           <div class="form-control">
             <input
               type="text"
@@ -26,31 +26,29 @@
               required
             />
           </div>
+          <a href="#">
+            <button>Continue</button>
+          </a>
         </form>
-        <a href="#">
-          <button>Continue</button>
-        </a>
       </section>
       <section id="playerTwo" class="playerTwo">
         <h1 class="title">Player Two</h1>
-        <form id="playerTwo-form">
+        <form id="playerTwoForm">
           <div class="form-control">
             <input
               type="text"
               class="playerTwo-input"
               id="playerTwo-input"
               placeholder="Git User"
-              required
             />
           </div>
         </form>
-        <a href="#">
-          <button>Continue</button>
-        </a>
+        <button id="playerTwo-submit">Continue</button>
       </section>
-      <section id="usersUI"></section>
     </div>
-    <script src="userUI.js"></script>
-    <script src="app.js"></script>
+    <div>
+      <ul id="usersUI"></ul>
+    </div>
+    <script src="git.js"></script>
   </body>
 </html>
